@@ -1,5 +1,11 @@
 # We
 
+# Project layout
+
+See: https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7
+
+## Build using
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Development server
