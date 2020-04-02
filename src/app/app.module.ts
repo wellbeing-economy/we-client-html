@@ -8,6 +8,8 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
 import { FeedModule } from './modules/feed/feed.module'
+import { PostModule } from './modules/post/post.module'
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -18,9 +20,13 @@ import { FeedModule } from './modules/feed/feed.module'
     AppRoutingModule,
     BrowserAnimationsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-    FeedModule
+    FeedModule,
+    PostModule,
+    CoreModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }

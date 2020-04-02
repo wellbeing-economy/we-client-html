@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FeedRoutingModule } from './feed-routing.module';
+
 import { FeedComponent } from './components/feed/feed.component';
 
 import { MatButtonModule } from '@angular/material/button';
@@ -20,6 +22,7 @@ import { FeedEventInfoComponent } from './components/feed-event-info/feed-event-
   ],
   imports: [
     CommonModule,
+    FeedRoutingModule,
     MatButtonModule,
     MatIconModule,
     MatToolbarModule
