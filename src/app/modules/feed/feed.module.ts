@@ -7,13 +7,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { FeedEventsComponent } from './components/feed-events/feed-events.component';
 import { FeedEventComponent } from './components/feed-event/feed-event.component';
 import { FeedToolbarComponent } from './components/feed-toolbar/feed-toolbar.component';
+import { FeedEventInfoComponent } from './components/feed-event-info/feed-event-info.component';
 
 @NgModule({
   declarations: [
     FeedComponent,
     FeedEventsComponent,
     FeedEventComponent,
-    FeedToolbarComponent
+    FeedToolbarComponent,
+    FeedEventInfoComponent
   ],
   imports: [
     CommonModule,

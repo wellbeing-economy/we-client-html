@@ -1,1 +1,17 @@
-<p>feed-event works!</p>
+<div class="avatar">
+    <img class="avatar__image" *ngIf="image" src="{{image}}"/>
+    <span class="avatar__placeholder" *ngIf="!image"></span>
+    <span 
+        class="avatar__type"
+        [ngClass]="{ 
+            'avatar__type--need': type == 'NEED', 
+            'avatar__type--resource': type == 'RESOURCE', 
+            'avatar__type--solution': type == 'SOLUTION' }">
+        {{type}}
+    </span>
+</div>
+<div class="detail">
+    <!-- <h1 class="detail__heading" *ngIf="heading">{{heading}}</h1> -->
+    <p class="detail__text">{{text}}</p>
+    <we-feed-event-info class="detail__info"></we-feed-event-info>
+</div>
