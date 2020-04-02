@@ -1,0 +1,19 @@
+:host {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.feed_toolbar__menu {
+    font-size: 36px;
+    color: grey;
+    flex: 0 0 auto;
+}
+
+.feed_toolbar__take_action {
+    margin-left: 10px;
+    min-width: 160px;
+    flex: 1 1 auto;
+}
