@@ -3,20 +3,37 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    background-color: #3f51b5;
+    height: 56px;
+    // box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
 }
 
-.feed_toolbar__menu {
-    margin-left: 5px;
+.button {
     font-size: 48px;
-    color: grey;
-    flex: 0 0 auto;
+    color: white;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
-.feed_toolbar__take_action {
-    margin-left: 15px;
-    min-width: 160px;
-    min-height: 48px;
+.options {
     flex: 1 1 auto;
-    font-size: 1.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.option {
+    padding: 17px 18px 15px 18px;
+    font-size: 24px;
+    color: white;
+}
+
+.add {
+    background-color: deeppink;
+    flex: 0 0 56px;
+    // border-left: 1px solid white;
 }
