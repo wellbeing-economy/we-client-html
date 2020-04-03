@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FeedEventInfoComponent } from './feed-event-info.component';
+import { PostInfoComponent } from './post-info.component';
 
-describe('FeedEventInfoComponent', () => {
-  let component: FeedEventInfoComponent;
-  let fixture: ComponentFixture<FeedEventInfoComponent>;
+describe('PostInfoComponent', () => {
+  let component: PostInfoComponent;
+  let fixture: ComponentFixture<PostInfoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FeedEventInfoComponent ]
+      declarations: [ PostInfoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FeedEventInfoComponent);
+    fixture = TestBed.createComponent(PostInfoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

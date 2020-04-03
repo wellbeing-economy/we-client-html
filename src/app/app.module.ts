@@ -7,9 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
-import { FeedModule } from './modules/feed/feed.module'
-import { PostModule } from './modules/post/post.module'
 import { CoreModule } from './core/core.module';
+import { PostModule } from './modules/post/post.module'
 
 @NgModule({
   declarations: [
@@ -20,7 +19,6 @@ import { CoreModule } from './core/core.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-    FeedModule,
     PostModule,
     CoreModule
   ],
