@@ -8,6 +8,7 @@ import { PostComponent } from './components/post/post.component';
 import { PostInfoComponent } from './components/post-info/post-info.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { MatButtonModule } from '@angular/material/button';
+import { AddNeedPageComponent } from './pages/add-need-page/add-need-page.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MatButtonModule } from '@angular/material/button';
     AddPageComponent,
     PostComponent,
     PostInfoComponent,
-    PostsComponent
+    PostsComponent,
+    AddNeedPageComponent
   ],
   imports: [
     CommonModule,
