@@ -7,7 +7,6 @@ import { AddPageComponent } from './pages/add-page/add-page.component';
 import { PostComponent } from './components/post/post.component';
 import { PostInfoComponent } from './components/post-info/post-info.component';
 import { PostsComponent } from './components/posts/posts.component';
-import { PostsToolbarComponent } from './components/posts-toolbar/posts-toolbar.component';
 import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
@@ -16,8 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
     AddPageComponent,
     PostComponent,
     PostInfoComponent,
-    PostsComponent,    
-    PostsToolbarComponent
+    PostsComponent
   ],
   imports: [
     CommonModule,
