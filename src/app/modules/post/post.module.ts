@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '../../shared/shared.module';
 import { PostRoutingModule } from './post-routing.module';
@@ -21,6 +22,8 @@ import { AddNeedPageComponent } from './pages/add-need-page/add-need-page.compon
   ],
   imports: [
     CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
     SharedModule,
     PostRoutingModule,
     MatButtonModule
